@@ -1,10 +1,7 @@
 import React from 'react'
 
-export default function Saludo(props) {
-
-    console.log(props)
-
+export default function Saludo({name, edad}) {
   return (
-    <div>Saludo soy {props.name} y tengo {props.edad} </div>
+    <div>Saludo soy {name} y tengo {edad} </div>
   )
 }
